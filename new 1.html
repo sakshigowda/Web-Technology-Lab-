@@ -1,0 +1,40 @@
+<html>
+<head>
+<script>
+var font=0,loading;
+function start()
+{
+loading=window.setInterval("inc()",100);
+}
+function inc()
+{
+font=font+1;
+display.innerHTML="TEXT GROWING"+font+"pt";
+display.style.fontSize=font+"pt";
+if(font>50)
+{
+window.clearTimeout(loading);
+loading=window.setInterval("dec()",100);
+}
+display.style.color="blue";
+}
+function dec()
+{
+font=font-1;
+display.innerHTML="TEXT SHRINKING"+font+"pt";
+display.style.fontSize=font+"pt";
+if(font==5)
+{
+window.clearTimeout(loading);
+loading=window.setInterval("inc()",100);
+}
+display.style.color="red";
+}
+</script>
+</head>
+<body style="background: #32c35f77" onload="start()" >
+<center>
+<p id="display" style="margin-top:200px">                   </p>
+</center>
+</body>
+</html>
