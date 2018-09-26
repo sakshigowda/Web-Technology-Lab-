@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="pro5.css" ?>
+<st>
+<st1>
+<usn>  usn:4vv15cs096 </usn>
+<name> swathi </name>
+<college> VVCE </college>
+<branch> BRANCH: computer science </branch>
+<year> 2019 </year>
+<email> swa123@gmail.com </email>
+</st1>
+<st1>
+<usn>  usn:4vv15cs097 </usn>
+<name> swagath </name>
+<college> VVCE </college>
+<branch> BRANCH: computer science </branch>
+<year> 2019 </year>
+<email> swagath123@gmail.com </email>
+</st1>
+<st1>
+<usn>  usn:4vv15cs050</usn>
+<name> anu</name>
+<college> VVCE </college>
+<branch> BRANCH: computer science </branch>
+<year> 2019 </year>
+<email> anu123@gmail.com </email>
+</st1>
+</st>
